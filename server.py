@@ -14,7 +14,7 @@ from starlette.responses import JSONResponse
 from helper.LimitUploadSize import LimitUploadSize
 from kaspad.KaspadMultiClient import KaspadMultiClient
 
-fastapi.logger.logger.setLevel(logging.WARNING)
+fastapi.logger.logger.setLevel(logging.DEBUG)
 
 app = FastAPI(
     title="Kaspa REST-API server",
